@@ -1,0 +1,201 @@
+body {
+  /*Skrift*/
+  font-size: 25px;
+  /*Skrift type*/
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  /*Backgrundsfarve på hjemmesiden*/
+  background: #ffffff;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+  color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000000;
+}
+
+/* selected link */
+a:active {
+  color: #000000;
+}
+
+/*Header*/
+/*Med navigation logo*/
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*Menu farve*/
+  background-color: #707070;
+  /*Størrelse i brede*/
+  width: 100%;
+  /*Skrift størrelse*/
+  font-size: 25px;
+}
+
+.main-menu li {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.main-menu li img {
+  float:left;
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.main-menu li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  /*Farve når musen er over en menu*/
+  background-color: #000000;
+}
+
+.main-menu li.aktiv a{
+  /*Kant der kommer omkring den side man er på, samt størrelse og farve*/
+  border: 3px solid #ffffff;
+}
+
+/*Mit Logo*/
+.logo img{
+  float:left;
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/*Main*/
+
+/*Min overskrift på siden*/
+h1{
+  font-size: 70px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 55px;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 35px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 55px;
+  margin-bottom: 0;
+}
+
+.tekst{
+  font-size: 25px;
+  font-family: arial;
+  float: left;
+  margin-left: 55px;
+}
+
+.billede-forside{
+  /*Sender billedet til højre*/
+  float: right;
+  /*Hvor billedet bliver placeret*/
+  margin-top: 5px;
+  margin-right: 1px;
+  /*Størrelse på billedet - I procent for responsive*/
+  max-width: 100%;
+  height: auto;
+}
+
+.knap{
+  background-color: #707070;
+  border: none;
+  color: #ffffff;
+  padding: 50px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin-left: 55px;
+  /*Viser at man kan trykke på knappen, når musen går hen over*/
+  cursor: pointer;
+}
+.animation{
+  width: 465px;
+  height: 692px;
+  margin-right: 5px;
+  float: right;
+}
+
+.plads{
+  overflow: auto;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #ffffff;
+
+}
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height: 70px;
+  background-color: #707070;
+  margin-top: -70px;
+  clear: both;
+}
+
+.footer-left{
+  color: #ffffff;
+  position: relative;
+  margin-left: 4%;
+  position: fixed;
+}
+
+.footer-center{
+  color: #ffffff;
+  position: relative;
+  margin-left: 46%;
+}
+
+.footer-right{
+  color: #ffffff;
+  position: relative;
+  margin-left: 80%;
+  position: fixed;
+}
+
+.footer-tekst{
+  font-size: 15px;
+  font-family: arial;
+  float: left;
+  margin-left: 55px;
+  color: #ffffff;
+}
+
+.footer-billede{
+  height: 30px;
+  width: auto;
+  margin-top: 18px;
+}
